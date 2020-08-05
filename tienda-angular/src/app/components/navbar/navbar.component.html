@@ -1,0 +1,87 @@
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+
+    <div class="col-xs">
+      <h2 class="display-6">
+      <p class="font-weight-bold">ZonaFranca</p>
+      </h2>
+    </div>
+<div class="container">
+  <div class="col-md-8">
+          <div class="input-group mb">
+            <input type="text" class="form-control" placeholder="Buscar Producto" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <button class="btn btn-success" type="button"><svg class="bi bi-search" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+                <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+              </svg></button>
+                        </div>
+          </div>
+    </div>
+          
+
+          <div class="col-xs">
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#">
+                              <svg class="bi bi-cart2" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+              </svg></a>
+                      </li>
+                  
+                      <li class="nav-item active">
+                        <a class="nav-link" routerLink="signup">Creá tu Cuenta</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" routerLink="login" *ngIf="!loggedIn">Ingresa</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#" (click)="logout($event)" *ngIf="loggedIn">Cerrar Sesión</a>
+                      </li>
+                     
+                    </ul>
+                    </div>
+          </div>
+
+</div>
+</nav>
+
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark text-white">
+<div class="row">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">CATEGORIAS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOMBRES</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">MUJERES</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">UNISEX</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">NIÑOS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">MARCAS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">CALZADOS</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">MODA</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link position-relative" href="#">OFERTAS</a>
+            </li>
+          </ul>
+          </div>              
+    </div>
+</nav>
+
